@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "外交部官網",
+    "subtitle": "視覺+前端切版",
+    "image": "public/img/web/Layout-1.jpg",
+    "link": "https://example.com/bodyeval",
+    "date": "2025-08-20",
+    "tags": ["Vue", "PMIS"],
+    "category": "web"
+  },
+  {
+    "id": 2,
+    "title": "🔗新竹縣政府",
+    "subtitle": "🟢在線上，視覺+前端切版",
+    "image": "public/img/web/Layout-2.jpg",
+    "link": "https://www.hsinchu.gov.tw/",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "web"
+  },
+  {
+    "id": 3,
+    "title": "公共工程委員會官網",
+    "image": "public/img/web/Layout-3.jpg",
+    "link": "#",
+    "date": "2025-05-10",
+    "tags": ["Prototype", "UX"],
+    "category": "prototype"
+  },
+  {
+    "id": 4,
+    "title": "🔗宜蘭縣文化局",
+    "subtitle": "🟢在線上，視覺+前端切版",
+    "image": "public/img/web/Layout-4.jpg",
+    "link": "https://www.ilccb.gov.tw/",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "web"
+  },
+  {
+    "id": 5,
+    "title": "高雄捷運一卡通",
+    "subtitle": "視覺+前端切版",
+    "image": "public/img/web/Layout-5.jpg",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "web"
+  },
+  {
+    "id": 6,
+    "title": "高軟策進會",
+    "subtitle": "視覺+前端切版",
+    "image": "public/img/web/Layout-6.jpg",
+    "link": "https://www.hsinchu.gov.tw/",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "web"
+  },
+  {
+    "id": 7,
+    "title": "農業易遊網",
+    "subtitle": "視覺+前端切版",
+    "image": "public/img/web/Layout-7.jpg",
+    "link": "https://www.hsinchu.gov.tw/",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "web"
+  },
+  {
+    "id": 8,
+    "title": "🔗哈瑪星共構平台UIUX",
+    "subtitle": "視覺+前端切版",
+    "image": "public/img/sys/hm01.jpg",
+    "link": "https://www.hamastar.com.tw/wimp.htm?",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "system"
+  },
+  {
+    "id": 9,
+    "title": "🔗哈瑪星共構平台UIUX",
+    "subtitle": "icon UI制定與規範",
+    "image": "public/img/sys/hm03.jpg",
+    "link": "https://www.hamastar.com.tw/wimp.htm?",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "system"
+  },
+  {
+    "id": 10,
+    "title": "🔗 哈瑪星共構平台UIUX",
+    "subtitle": "版型切換",
+    "image": "public/img/sys/hm04.jpg",
+    "link": "https://www.hamastar.com.tw/wimp.htm?",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "system"
+  },
+  {
+    "id": 11,
+    "title": "識別設備cms系統",
+    "subtitle": "版型切換",
+    "image": "public/img/sys/cms1.jpg",
+    "link": "https://www.hsinchu.gov.tw/",
+    "date": "2025-08-12",
+    "tags": ["React", "Tailwind"],
+    "category": "system"
+  },
+  {
+    "id": 12,
+    "title": "飯店旅遊版型",
+    "subtitle": "Visual+VUE+Sass切版",
+    "image": "public/img/web/Layout-10.jpg",
+    "link": "https://stunning-sprinkles-f32819.netlify.app/",
+    "date": "2025-10-30",
+    "tags": ["React", "Tailwind"],
+    "category": "system"
+  }
+]

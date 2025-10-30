@@ -1,0 +1,7 @@
+[
+  { "id": "about", "label": "關於我", "href": "#about", "icon": "user" },
+  { "id": "experience", "label": "工作經歷", "href": "#experience", "icon": "briefcase" },
+  { "id": "skills", "label": "技術能力", "href": "#skills", "icon": "code" },
+  { "id": "portfolio", "label": "作品實績", "href": "#portfolio", "icon": "image" },
+  { "id": "webDes", "label": "建站技術", "href": "#webDes", "icon": "layer-group" }
+]

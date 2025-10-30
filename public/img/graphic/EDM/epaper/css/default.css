@@ -1,0 +1,329 @@
+@charset "utf-8";
+/* 基本版面 */
+body{
+	background-image: url(../images/bg_body.jpg);
+	background-repeat: repeat;
+}
+#wrapper {
+	/*background-image: url(../images/%E5%8F%B0%E7%81%A3%E9%9B%BB%E5%8B%95%E8%BB%8A%E9%9B%BB%E5%AD%90%E5%A0%B1.jpg);*/
+	width:780px;
+	height: 1000px;
+	margin: 0 auto;
+	background-position: center top;
+	background-color: #FFF;
+}
+
+#head {
+	background-image: url(../images/head.jpg);
+	width: 780px;
+	height: 154px;
+	margin: 0 auto;
+	float:left;
+	/*border:2px solid  #F00;*/
+}
+#content {
+	width: 760px;
+	/*border:2px solid  #F00;*/
+	float:left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 40px;
+	background-color: #FFF;
+}
+
+#footer {
+	width: 780px;
+	height:130px;
+	color: #999;
+	float: left;
+	line-height: 16px;
+	padding-top: 10px;
+	background-image: url(../images/foot.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color: #FFF;
+}
+/*顏色*/
+.red{color:#F00;}
+.lightblue{color:#00b5ff;}
+.lightblue02{color:#2aaaf7;}
+.lightblue02{color:#1c8abb;} 
+.peach{color:#ef2c54 ;}
+.orange{color:#f05316 ;}
+/*底線*/
+.linebottom{
+	text-decoration: underline;
+}
+/*去底線*/
+.noneline{
+	text-decoration: none;
+}
+
+/*----------------------頭部---------------------*/
+
+#head .btn a {
+	float: right;
+	margin-right: 80px;
+	background-image: url(../images/btn_book1_03.jpg);
+	font-size: 10pt;
+	height: 25px;
+	width: 84px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+}
+#head .btn a:hover{
+	background:url(../images/book2_03.jpg);
+	color:#FFF;}#head #dateWrap {
+	margin-top: 75px;
+	position: absolute;
+	margin-left: 560px;
+	height: 70px;
+	width: 200px;
+}
+#dateWrap .period {
+	float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 35px;
+	font-style: italic;
+	margin-top: 8px;
+	margin-left: 11px;
+}
+#dateWrap .date {
+	float: left;
+	margin-top: 11px;
+	margin-left: 13px;
+	letter-spacing: 1px;
+}
+/*---------最新電子報-----------*/
+#latestWrap {
+	float: left;
+	width: 218px;
+	height: 267px;
+	background-image: url(../images/bg_hotnews.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#latestWrap h1 {
+	float: left;
+	background-image: url(../images/title_hotnews.jpg);
+	background-repeat: no-repeat;
+	width: 218px;
+	height: 52px;
+}
+#latestWrap .more {
+	float: right;
+	margin-top: 20px;
+	margin-right: 5px;
+	height: 14px;
+}
+#latestWrap ul {
+	width: 90%;
+	float: left;
+	margin: 9px 3px 0 0;
+}
+#latestWrap ul a li {
+	float: left;
+	width: 90%;
+	margin-left: 30px;
+	font-size: 11pt;
+	line-height: 26px;
+	color: #333;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: dashed;
+	border-top-color: #76dee2;
+	border-right-color: #76dee2;
+	border-bottom-color: #76dee2;
+	border-left-color: #76dee2;
+	text-decoration: none;
+	list-style-image: url(../images/icon.jpg);
+}
+
+#latestWrap ul a:hover li{
+	color:#09F;
+	text-decoration: underline;
+}
+
+/*---------最新電子報結束-----------*/
+#content .line {
+	float: left;
+}
+/*---------產業焦點-----------*/
+#fousWrap {
+	float: right;
+	width: 510px;
+	height: 270px;
+}
+#fousWrap h1 {
+	float: left;
+	margin-bottom: 10px;
+}
+#fousWrap h2 a {
+	float: left;
+	width: 95%;
+	font-size: 12pt;
+	margin-top: 5px;
+	letter-spacing: 1px;
+}
+#justice a {
+	font-size: 11pt;
+	text-decoration: none;
+	width: 60px;
+}
+
+#fousWrap h2 a:hover {
+	color: #09F;
+	text-decoration: underline;
+}
+#fousWrap .time {
+	float: left;
+	width: 100px;
+	font-size: 11pt;
+}
+#fousWrap .newsfoto {
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#fousWrap #justice {
+	float: left;
+	margin-top: 20px;
+	font-size: 11pt;
+	color: #333;
+	line-height: 22px;
+	text-align:justify;
+	text-justify:distribute;
+	width: 255px;
+	word-wrap: break-word;
+word-break: break-all;/
+}
+#fousWrap p a {
+	font-size:11pt;
+	color: #09F;
+}
+
+#fousWrap p a:hover {
+	color: #09F;
+	text-decoration: underline;
+}
+
+/*---------新聞快訊-----------*/
+#newsWrap {
+	float: left;
+	width: 760px;
+	margin-bottom: 20px;
+	background-image: url(../images/bg_news2.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	margin-top: 30px;
+	padding:0 0px 40px 0px;
+}
+
+#newsWrap h1 {
+	float: left;
+	margin:0px 0 10px 0;
+}
+#newsWrap .time {
+	float: left;
+	width: 80px;
+	font-size: 10pt;
+	color: #666;
+	text-align: left;
+	height: 20px;
+	line-height: 20px;
+	margin-left:30px;
+}
+#newsWrap h2 {
+	color: #0E76B5;
+	font-size: 12pt;
+	float: left;
+}
+#newsWrap p {
+	float: left;
+	width: 96%;
+	font-size: 11pt;
+	letter-spacing: 1px;
+	line-height: 20px;
+	text-align:justify;
+	text-justify:distribute;
+	width: 700px;
+	word-wrap: break-word;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#newsWrap ul {
+	float: left;
+	width: 95%;
+	color:#09F;
+	margin-left: 20px;
+}
+#newsWrap ul li {
+	float: left;
+	width: 90%;
+	margin-left: 30px;
+	list-style-type: square;
+	font-size: 11pt;
+	line-height: 26px;
+	color: #09F;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: dashed;
+	border-top-color: #76dee2;
+	border-right-color: #76dee2;
+	border-bottom-color: #76dee2;
+	border-left-color: #76dee2;
+}
+#newsWrap ul li a {
+	text-decoration: none;
+	color: #333;
+}
+#newsWrap ul li a:hover {
+	color: #09F;
+	text-decoration: underline;
+}
+#exhibitWrap ul {
+	float: left;
+	width: 100%;
+}
+#exhibitWrap {
+	float: left;
+	width: 365px;
+}
+#exhibitWrap ul li {
+	float: left;
+	width: 90%;
+	margin-left: 30px;
+	list-style-type: square;
+	font-size: 11pt;
+	line-height: 26px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: dashed;
+	border-top-color: #76dee2;
+	border-right-color: #76dee2;
+	border-bottom-color: #76dee2;
+	border-left-color: #76dee2;
+}
+#footer img {
+	margin-top: 50px;
+	margin-left: 20px;
+	float: left;
+}
+#footer p {
+	float: left;
+	font-size: 10pt;
+	color: #FFF;
+	margin-left: 20px;
+	margin-top: 63px;
+	width: 65%;
+}

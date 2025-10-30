@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 讓 snap 容器吃到全高 */
+@layer base {
+  html, body, #app { height: 100%; }
+
+}
+html, body { overflow-x: hidden; }
+img, svg, canvas, video { max-width: 100%; height: auto; }
+
+:root {
+  --brand: #a21caf;
+  --brand-light: #fce7f3;
+  --neutral: #4b5563;
+  --bg: #ffffff;
+  --menu-1: #968ef5; /* 莓紫 */
+  --menu-2: #f4b103; /* 青藍 */
+  --menu-3: #95dec4; /* 抹茶綠 */
+  --menu-4: #da95f2; /* 琥珀橘 */
+  --icon-git: #5c0a64; /* GitHub - 莓紫 */
+  --icon-mail: #2588eb; /* Email - 青藍 */
+  --icon-codepen: #111;    /* CodePen - 黑 */
+}
+nav.menu-grid a:nth-child(1) {
+  --menu-color: var(--menu-1);
+}
+nav.menu-grid a:nth-child(2) {
+  --menu-color: var(--menu-2);
+}
+nav.menu-grid a:nth-child(3) {
+  --menu-color: var(--menu-3);
+}
+nav.menu-grid a:nth-child(4) {
+  --menu-color: var(--menu-4);
+}
+nav.menu a:nth-child(1) { --c: var(--menu-1); }
+nav.menu a:nth-child(2) { --c: var(--menu-2); }
+nav.menu a:nth-child(3) { --c: var(--menu-3); }
+nav.menu a:nth-child(4) { --c: var(--menu-4); }
+
+nav.menu a:hover {
+  background-color: color-mix(in srgb, var(--c) 12%, white);
+  color: var(--c);
+}
+
+.icon-btn {
+  @apply inline-flex items-center justify-center w-10 h-10 rounded-full text-white shadow-md
+         transition-all duration-300 hover:shadow-xl hover:scale-110;
+
+  background-color: var(--btn-color);
+}
+.icon-btn:hover {
+  background-color: color-mix(in srgb, var(--btn-color) 80%, white);
+}
+
+
+
+
