@@ -10,6 +10,26 @@
     "category": "web"
   },
   {
+    "id": 17,
+    "title": "🔗電商購物車商品串接網站",
+    "subtitle": "JS+Api",
+    "image": "/img/web/Layout-17.jpg",
+    "link": "https://charleneliao.github.io/shoppingcart/",
+    "date": "2025-11",
+    "tags": ["JS", "Api"],
+    "category": "web"
+  },
+  {
+    "id": 18,
+    "title": "🔗電商購物車訂單後台圖表統計",
+    "subtitle": "JS+Api",
+    "image": "/img/web/Layout-18.jpg",
+    "link": "https://charleneliao.github.io/shoppingcart/admin.html",
+    "date": "2025-11",
+    "tags": ["JS", "Api"],
+    "category": "web"
+  },
+  {
     "id": 1,
     "title": "外交部官網",
     "subtitle": "視覺+前端切版",
