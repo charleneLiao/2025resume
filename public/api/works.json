@@ -26,7 +26,7 @@
     "link": "#",
     "date": "2025-05-10",
     "tags": ["Prototype", "UX"],
-    "category": "prototype"
+    "category": "web"
   },
   {
     "id": 4,
@@ -99,22 +99,52 @@
   },
   {
     "id": 11,
-    "title": "識別設備cms系統",
+    "title": "🔗識別設備cms系統",
     "subtitle": "版型切換",
     "image": "public/img/sys/cms1.jpg",
-    "link": "https://www.hsinchu.gov.tw/",
+    "link": "https://beautiful-crisp-d1ae32.netlify.app/",
     "date": "2025-08-12",
     "tags": ["React", "Tailwind"],
     "category": "system"
   },
   {
     "id": 12,
-    "title": "飯店旅遊版型",
+    "title": "🔗四方通行官網",
     "subtitle": "Visual+VUE+Sass切版",
     "image": "public/img/web/Layout-10.jpg",
+    "link": "https://starlit-choux-29947c.netlify.app/",
+    "date": "2025-10-30",
+    "tags": ["React", "Tailwind"],
+    "category": "web"
+  },
+  {
+    "id": 13,
+    "title": "🔗飯店版型",
+    "subtitle": "Visual+JS+Sass切版",
+    "image": "public/img/web/Layout-11.jpg",
     "link": "https://stunning-sprinkles-f32819.netlify.app/",
     "date": "2025-10-30",
     "tags": ["React", "Tailwind"],
-    "category": "system"
+    "category": "web"
+  },
+  {
+    "id": 14,
+    "title": "🔗飯店版型",
+    "subtitle": "Visual+JS+Sass切版",
+    "image": "public/img/web/Layout-12.jpg",
+    "link": "https://stunning-sprinkles-f32819.netlify.app/",
+    "date": "2025-10-30",
+    "tags": ["React", "Tailwind"],
+    "category": "web"
+  },
+  {
+    "id": 15,
+    "title": "🔗飯店版型",
+    "subtitle": "Visual+JS+Sass切版",
+    "image": "public/img/web/Layout-13.jpg",
+    "link": "https://dapper-seahorse-7d82e8.netlify.app/",
+    "date": "2025-10-30",
+    "tags": ["React", "Tailwind"],
+    "category": "web"
   }
 ]
